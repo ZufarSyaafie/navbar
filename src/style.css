@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "Cyborg Punk";
+    src: url("../fonts/Cyborg\ Punk.ttf");
+}
+
 .navbar {
     box-sizing: border-box;
-    border-image: linear-gradient(to right, #0986DA,#CA2FC8) 1;
+    border-image: linear-gradient(to right, #0986DA, #CA2FC8) 1;
     border-style: solid;
     border-width: 0px 0px 5px 0px;
     background: #121212;
@@ -31,6 +36,9 @@ a {
 
 .button-wrap {
     font-size: 16px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-weight: 700;
     color: white;
 }
 
@@ -40,6 +48,10 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 10px rgba(119, 84, 207, 0.50);
+    font-family: "Cyborg Punk";
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .login {
