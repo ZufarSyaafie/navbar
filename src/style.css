@@ -1,0 +1,54 @@
+.navbar {
+    box-sizing: border-box;
+    border-image: linear-gradient(to right, #0986DA,#CA2FC8) 1;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    background: #121212;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+.container>* {
+    display: flex;
+}
+
+ul {
+    flex-direction: row;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-wrap {
+    font-size: 16px;
+    color: white;
+}
+
+.logo span {
+    font-size: 24px;
+    background: linear-gradient(89deg, #0986DA 0%, #CA2FC8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login {
+    display: flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #CA2FC8;
+    box-shadow: 0px 0px 10px 0px #CA2FC8;
+    color: #202020;
+}
