@@ -73,12 +73,17 @@ a {
     .container > *{
         transform: scale(0.875);
     }
+
+    .button-wrap{
+        font-size: 14px;
+    }
+
     .logo span{
         display: none;
     }
 
     .logo .logo-tablet{
         display: inherit;
-        font-size: 40px;
+        font-size: 36px;
     }
 }
