@@ -9,16 +9,17 @@
     border-style: solid;
     border-width: 0px 0px 5px 0px;
     background: #121212;
-    height: 100px;
+    height: 10vh;
+    padding: 0px 3%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .container {
     display: flex;
     align-items: center;
-    gap: 250px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .container>* {
