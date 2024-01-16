@@ -54,7 +54,9 @@ a {
     font-size: 24px;
     font-weight: 400;
 }
-
+.logo-tablet{
+    display: none;
+}
 .login {
     display: flex;
     padding: 12px 22px;
@@ -72,6 +74,11 @@ a {
         transform: scale(0.875);
     }
     .logo span{
-        font-size: 20px;
+        display: none;
+    }
+
+    .logo .logo-tablet{
+        display: inherit;
+        font-size: 40px;
     }
 }
