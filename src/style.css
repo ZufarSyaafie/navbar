@@ -65,3 +65,13 @@ a {
     box-shadow: 0px 0px 10px 0px #CA2FC8;
     color: #202020;
 }
+
+/* Responsvie */
+@media screen and (width < 1024px) {
+    .container > *{
+        transform: scale(0.875);
+    }
+    .logo span{
+        font-size: 20px;
+    }
+}
