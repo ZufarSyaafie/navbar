@@ -70,10 +70,6 @@ a {
 
 /* Responsvie */
 @media screen and (width < 1024px) {
-    .container > *{
-        transform: scale(0.875);
-    }
-
     .button-wrap{
         font-size: 14px;
     }
