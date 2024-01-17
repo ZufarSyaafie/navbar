@@ -68,6 +68,56 @@ a {
     color: #202020;
 }
 
+.hamburger-menu{
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 25px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger{
+    transition: .4s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(119, 84, 207, 0.50);
+    height: 4px;
+    width: 30px;
+    background-color: #0986DA;
+}
+
+.line3{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: #CA2FC8;
+}
+
+.line2{
+    background-color: #CA2FC8;
+}
+
+.line1, .line4{
+    width: 15px;
+}
+
+.hamburger-menu.is-active .line1,
+.hamburger-menu.is-active .line4{
+    width: 0px;
+}
+
+.hamburger-menu.is-active .line3{
+    transform: rotate(45deg) translateX(-2px) translateY(.5px);
+}
+.hamburger-menu.is-active .line2{
+    transform: rotate(-45deg) translate(-2.5px, -1.5px);
+}
+
+
+
 /* Responsvie */
 @media screen and (width < 1024px) {
     .button-wrap{
@@ -81,5 +131,11 @@ a {
     .logo .logo-tablet{
         display: inherit;
         font-size: 36px;
+    }
+}
+
+@media screen and (width < 744px) {
+    .main-menu, .button{
+        display: none;
     }
 }
